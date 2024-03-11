@@ -3,12 +3,12 @@
 // person.js
 
 //name  Variables
-export const name = 'Halima';
-export const age = '15';
+export const message  = 'The weather is very  cold today';
+export const weather = ' and its rainy' + '';
 
  //personName function
- function findPerson() {
-    return name + ' is ' + age + 'years old.';
+ function checkWeather() {
+    return message+ ' ' + weather + '';
  }
 
  //cook function for person
@@ -33,7 +33,7 @@ export const age = '15';
     return 'you are a minor';
  }
 
-export {cleanTheHouse, driveMe, cookForMe ,findPerson, checkAge};
+export {cleanTheHouse, driveMe, cookForMe ,checkWeather, checkAge};
 
 
 
