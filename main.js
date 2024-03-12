@@ -13,3 +13,7 @@ console.log(driveMe());
 console.log(cookForMe());
 console.log(checkWeather());
 console.log(checkAge());
+
+//second sample logs
+// console.log(myPerson.cleanTheHouse());
+// console.log(myPerson.driveMe());

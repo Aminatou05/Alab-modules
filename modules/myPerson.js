@@ -26,7 +26,7 @@ function cleanTheHouse() {
   return "the whole house is cleaned";
 }
 
-//  //getAge function
+  //checkAge function
 function checkAge() {
   return "you are a minor";
 }
