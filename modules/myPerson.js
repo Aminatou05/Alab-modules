@@ -1,46 +1,34 @@
 // This assignment focuses on leveraging code modules and the import/export features of JavaScript.
 // Create modular code using the export keyword.
 // person.js
-
 //name  Variables
-export const message  = 'The weather is very  cold today';
-export const weather = ' and its rainy' + '';
 
- //personName function
- function checkWeather() {
-    return message+ ' ' + weather + '';
- }
+const message = "The weather is very  cold today";
+ const weather = " and its rainy" + "";
 
- //cook function for person
- function cookForMe(){
-    return 'dinner is ready';
- } 
+//personName function
+function checkWeather() {
+  return message + " " + weather + "";
+}
 
- //drive funtion
- function driveMe(){
-    return ' take me to school';
+//cook function for person
+function cookForMe() {
+  return "dinner is ready";
+}
 
- }
+//drive funtion
+function driveMe() {
+  return " take me to school";
+}
 
- //clean funtion for person
- function cleanTheHouse() {
-    return 'the whole house is cleaned';
-
- }
+//clean funtion for person
+function cleanTheHouse() {
+  return "the whole house is cleaned";
+}
 
 //  //getAge function
- function checkAge() {
-    return 'you are a minor';
- }
+function checkAge() {
+  return "you are a minor";
+}
 
-export {cleanTheHouse, driveMe, cookForMe ,checkWeather, checkAge};
-
-
-
-
-
-
-
-
-
-
+export {message,weather, cleanTheHouse, driveMe, cookForMe, checkWeather, checkAge };

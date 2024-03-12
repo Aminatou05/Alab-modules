@@ -1,4 +1,4 @@
-export const name = " Halima";
+export const name = " Halima Sy";
 export const age = "15";
 
 export function getAge(arg) {
